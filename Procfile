@@ -1,1 +1,1 @@
-web: python manage.py collectstatic;
+web: python3 manage.py collectstatic;
