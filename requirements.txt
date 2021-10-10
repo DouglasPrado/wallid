@@ -1,2 +1,3 @@
 Django
 django-money
+django-rest

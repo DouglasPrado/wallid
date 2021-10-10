@@ -26,6 +26,8 @@ SECRET_KEY = 'django-insecure-es%jp7i#=l!0g64!yy$n6+eoi_pns1br@9j8a0bjuf_0*uts=e
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    'localhost',
+    'localhost:8000',
     'wallid.herokuapp.com'
 ]
 
@@ -34,6 +36,7 @@ ALLOWED_HOSTS = [
 
 INSTALLED_APPS = [
     'djmoney',
+    'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
