@@ -1,1 +1,1 @@
-web: python manage.py collectstatic; python manage.py migrate; --log-file - --log-level debug
+web: python manage.py collectstatic; python manage.py migrate;
